@@ -7,29 +7,31 @@ html {
   margin: 0px;
   height: 100%;
 }
-#main {
+#main_ {
   width: 600px;
   height: 800px;
   background-color: white;
   box-sizing: border-box;
   padding: 0 20px;
-  overflow-y: scroll;
 }
 .TodoList_content {
-  width: 560px;
+  width: 400px;
   height: 60px;
-  display: flex;
-  align-items: center;
+  display: inline-block;
   border-bottom: 1px solid rgba(128, 128, 128, 0.2);
   font-size: 20px;
   font-family: "나눔스퀘어_ac";
-  padding: 0 30px;
+  padding: 25px 30px;
   box-sizing: border-box;
 }
 #Header_TodoList {
-  height: 60px;
-  justify-content: flex-end;
-  border-bottom: 1px solid rgba(128, 128, 128, 0.4);
+  display: inline-block;
+  width: 450px;
+  height: 50px;
+  justify-content: center;
+  border: none;
+  border: 1px solid rgba(128, 128, 128, 0.4);
+  outline: 0;
 }
 #Title {
   font-size: 35px;
@@ -38,6 +40,12 @@ html {
   justify-content: center;
   margin: 20px 0;
 }
-img {
-  width: 30px;
+button {
+  outline: 1px solid pink;
+}
+#main {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 560px;
+  height: 650px;
 }
