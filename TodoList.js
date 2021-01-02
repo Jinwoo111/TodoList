@@ -8,7 +8,7 @@ window.onload = function(){
         var newList = document.createElement("div");
         var DeleteDiv = `<div class=\"TodoList_content\">${myText.value}&nbsp;</div>`;
         newList.innerHTML = DeleteDiv + ReviseButton + DeleteButton;
-        MainMenu.appendChild(newList);
+        MainMenu.appendChild(newList);  
         myText.value ="";
         Update();
 
